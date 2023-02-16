@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online Web Tutoring</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/react/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></script>
+    <Script>
+        function Greeting(props) {
+  return <h1>Hello, {props.name}!</h1>;
+}
+
+ReactDOM.render(<Greeting name="World" />, document.getElementById('root'));
+
+    </Script>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html">Services</a></li>
+              <li><a href="index.html">Pricing</a></li>
+              <li><a href="index.html">Contact</a></li>
+            </ul>
+          </nav>
+      <h1>Online Web Tutoring</h1>
+      <p>Get the help you need to succeed in your or your childern education.</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Our Services</h2>
+        <ul>
+          <li>One-on-one tutoring</li>
+          <li>Group tutoring sessions</li>
+          <li>Custom lesson plans</li>
+          <li>Homework help</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>About Us</h2>
+        <p>We are a team of experienced web developers who are passionate about helping others learn and grow in the field. Our mission is to provide quality education and support to anyone who wants to succeed in web development.</p>
+      </section>
+
+      <section>
+        <h2>Pricing</h2>
+        <p>Contact us for pricing details.</p>
+      </section>
+
+      <section>
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Online Web Tutoring</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
